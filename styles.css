@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+html {
+    background-image: url(https://4kwallpapers.com/images/walls/thumbs_3t/7555.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+body {
+    background-color: rgba(50, 50, 50, 0.95);
+    color: white;
+    padding: 0.1em 2em;
+    border-radius: 15px;
+    box-shadow: 0 2px 3px 1px rgba(0, 0, 0, 0.5);
+    width: 900px;
+    margin: 20px auto;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+h1,
+h2,
+section {
+    text-align: center;
+}
+
+ol {
+    margin-left: 2em;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bolder;
+    color: rgba(100, 255, 255, 1)
+}
+
+a:hover {
+    color: rgba(100, 200, 200, 1)
+} 
+
+section {
+    margin: 0 auto 2em;
+}
+
+section > p {
+    text-align: justify;
+    text-indent: 2em;
+}
+
+section .picture {
+    width: 100%;
+}
+
+section .picture img {
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px 1px rgba(0, 0, 0, 0.5);
+}
+
+section .picture p {
+    font-size: smaller;
+    font-style: italic;
+    margin-top: 0;
+}
+
+footer {
+    border-top: solid 1px rgba(255, 255, 255, 0.5);
+    font-size: small;
+    font-style: italic;
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+footer p {
+    opacity: 80%;
+}

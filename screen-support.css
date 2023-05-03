@@ -1,0 +1,19 @@
+@media screen and (max-width: 980px) {
+    body {
+        width: 90%;
+        padding: 0.2em 4%;
+    }
+
+    section .picture {
+        margin-bottom: 1.5em;
+    }
+
+    section .picture img {
+        width: 100%;
+        height: auto;
+    }
+
+    section .picture p {
+        font-size: 70%;
+    }
+}
